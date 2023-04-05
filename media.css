@@ -1,0 +1,183 @@
+@media (min-width:375px) and (max-width:546px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        font-family: satisfy;
+        font-size: 40px;
+        background-image: linear-gradient(to right, #ffefba, #ffffff);
+
+
+    }
+
+    .body {
+        width: 100vw !important;
+        height: 100vh !important;
+        background-image: linear-gradient(to right, #70e1f5, #ffd194);
+    }
+
+    .mypic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .h2 {
+
+        position: absolute;
+        margin-top: 400px;
+        margin-left: -722px;
+        padding-left: -1500px !important;
+
+    }
+
+    .h3 {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: -534px;
+        padding-left: -1500px !important;
+    }
+
+    .h1education {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -200px;
+    }
+
+    .h1project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: auto;
+    }
+
+    #card1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin: 10px;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+
+    #card1 {
+        transition: all ease .5s;
+    }
+
+    #card1:hover {
+        box-shadow: 10px 10px 15px gray;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .h1chats {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #3d7eaa, #ffe47a);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+} 
+@media (min-width:425px) and (max-width:546px){
+
+    .mypic{
+        margin-left: 100px;
+    }
+    .h2{
+        padding-left: 780px;
+    }
+
+}
+@media (min-width:768px) and (max-width:546px) {
+    .mypic{
+        margin-left: 100px;
+    }
+    .h2{
+        margin-top: 100px;
+        padding-left: 350px;
+    }
+    .h3{
+        margin-top: 250px;
+        padding-left: 90px;
+    }
+.h1education{
+    margin-top: -200px;
+}
+.h1project{
+    height: auto;
+    width: auto;
+}
+#card1{
+    height: 90vh;
+    width: 30vw !important;
+}
+}
+@media (min-width:546px) and (max-width:1024px){
+    .mypic{
+        margin-left: 50px;
+    }
+    .h2{
+        margin-top: 50px;
+        padding-left: 500px !important;
+    }
+    .h3{
+        margin-top: 50px;
+        padding-left: 400px;
+    }
+    .h1education{
+        margin-top: -200px;
+    }
+    #card1{
+        height: 90vh;
+        width: 30vw !important;
+    }
+}
+@media (min-width:10px) and (max-width:320px){
+    .mypic{
+        margin-left: 40px;
+    }
+    .h2{
+        margin-top: 400px;
+        padding-left: 10px;
+    }
+    .h3{
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .h1education{
+        margin-top: -300px;
+    }
+    #card1{
+        margin: 10px;
+        height: 90vh;
+        width: 90vw !important;
+    }
+    .footer{
+        /* text-align: center; */
+        word-wrap: break-word;
+    }
+}
+
+
